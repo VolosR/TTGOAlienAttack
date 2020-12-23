@@ -11,6 +11,9 @@ const int pwmFreq = 5000;
 const int pwmResolution = 8;
 const int pwmLedChannelTFT = 0;
 
+void collision();
+void restart();
+
 #define TFT_GREY 0x5AEB
 
 //int player
